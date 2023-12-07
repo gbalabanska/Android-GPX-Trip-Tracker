@@ -44,6 +44,7 @@ public class GPSLocationListener implements LocationListener {
         dataManager = DataManager.getInstance();
     }
 
+  int i = 0;
     @Override
     public void onLocationChanged(Location loc) {
         Log.i(MY_TAG, "onLocationChanged()");
@@ -52,6 +53,16 @@ public class GPSLocationListener implements LocationListener {
             Intent serviceIntent = new Intent(context, LocationService.class);
             context.stopService(serviceIntent);
         }
+
+        //acceleration testing---------------
+        if (i < dataManager.getPlannedRoutePoints().size()) {
+            RoutePoint testRoutePoint = dataManager.getPlannedRoutePoints().get(i);
+            loc = new Location("test gps") ;
+            loc.setLatitude(testRoutePoint.getLat());
+            loc.setLongitude(testRoutePoint.getLon());
+        }
+        i++;
+        //-----------------------------------
 
         if (loc != null) {
             LocalDateTime timeOfRegistration = LocalDateTime.now();
