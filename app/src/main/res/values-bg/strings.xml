@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPX Trip Tracker</string>
+    <string name="file_name">Име на файла:</string>
+    <string name="language">Избор на език</string>
+    <string name="progress">Прогрес</string>
+    <string name="home">НАЧАЛО</string>
+    <string name="data_loading">Зареждане на пътуване</string>
+    <string name="load_gpx_file">Файл</string>
+    <string name="start_point">Точка на отпътуване:</string>
+    <string name="end_point">Крайна точка:</string>
+    <string name="planned_time">Планирано време:</string>
+    <string name="planned_time_hour">Планиран час:</string>
+    <string name="start_trip">Старт</string>
+    <string name="cancel">Отказ</string>
+    <string name="settings">Настройки</string>
+    <string name="notification_for_passed_points">Известие за изминати точки</string>
+    <string name="display_coordinates">Визуализация на координати</string>
+    <string name="delay">Разлика:</string>
+    <string name="lang_change_msg">Промяната на езика ще рестартира приложението. Сигурни ли сте, че искате да продължите?</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="invalid_gpx">Невалиден GPX файл</string>
+    <string name="invalid_extension">Моля изберете файл с .gpx разширение</string>
+    <string name="notify_title">GPX Trip Tracker</string>
+    <string name="arrived_at">Вие пристигнахте до</string>
+    <string name="service_notify">Работи услуга за получване на локация.</string>
+    <string name="location_perm_denied">Отказан достъп до локацията.</string>
+    <string name="home_subtitle">Започни своето пътуване</string>
+    <string name="progress_info">Визуализация на закъснение</string>
+    <string name="choose_file">Изберете GPX файла на пътуването:</string>
+    <string name="second_time">Очаквано време:</string>
+    <string name="coordinates">Координати: %sД, %sШ</string>
+    <string name="rest">Почивка:</string>
+    <string name="time_actual">Реален час:</string>
+    <string name="time_predicted">Очакван час:</string>
+    <string name="file_access_denied">Позволението е отказано. Не може да се достъпи файловата система.</string>
+    <string name="location_granted">Даден е достъп до локацията.</string>
+    <string name="location_denied">Отказан достъп до локацията.</string>
+    <string name="home_page">Начална страница</string>
+</resources>
